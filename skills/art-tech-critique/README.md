@@ -1,0 +1,73 @@
+# 艺术批判工业与科技 · art-tech-critique
+
+版本 1.0.0。这个独立 Skill 从用户认可的《Oil》与《ImageNet Roulette》两篇图文稿提炼，研究艺术作品怎样表达对工业与科技的批判。保留形式分析、具体技术、作者意图、真实图像和生活中的讨论，适合小红书案例，也可按需求改为其他平台内容。
+
+## 怎么开始
+
+支持 Agent Skills 的客户端：导入包含 `SKILL.md` 的完整 `art-tech-critique` 文件夹，保留 `references`、`scripts`、`assets` 和 `agents`。单 Skill ZIP 的顶层就是该文件夹；插件 ZIP 则保留根目录 `plugin.json` 与 `skills`。在目标客户端支持的安装或导入入口操作，再开新任务验证识别。
+
+Codex 支持安装的环境中，用 `$art-tech-critique` 明确调用；不能保证任意 AI 平台都把 `$名称` 当作原生调用。只有普通聊天附件的客户端，把 `SKILL.md` 与本次需要的参考文件一并上传，说明“按这些规则执行”；这是提示词使用，不能当作已安装 Skill。没有浏览工具时只分析给定材料，没有文件工具时可交付文字和图片链接并标明缺口。
+
+结构依据：[官方 Skill 文档](https://developers.openai.com/plugins/build/skills)、[官方插件结构](https://developers.openai.com/plugins/build/plugins)。这些说明不表示本包已上架或已验证所有客户端。
+
+完整调用示例：
+
+> 使用 $art-tech-critique，研究一个艺术批判工业或科技的案例。先读我的历史记录，说明新增问题，再分析作品形式、具体技术与作者意图。用自然易懂的中文写成约800字的小红书稿，联系一个具体生活情景，留下有讨论空间的问题，并交付真实图片、图注和研究依据。
+
+## 提示词与功能对应
+
+逐项展开的说明见 [功能说明](功能说明.md)，每项都有能力、提示词与交付结果。
+
+下面的句式可直接复制；自然语言相近也适用，功能由请求范围决定，不要求精确关键词匹配。
+
+| 功能 | 提示词 | 结果 |
+| --- | --- | --- |
+| 候选选题 | 使用 $art-tech-critique，读取历史，给我3个艺术批判工业与科技的候选，说明旧稿差异，先不写正文。 | 具体作品、核心问题、可能的艺术表达、待查证据与新增价值 |
+| 艺术与技术分析 | 使用 $art-tech-critique，只分析《ImageNet Roulette》的界面、肖像与分类机制怎样构成批判。 | 图像细节、技术过程、解释前提及另一种合理解读 |
+| 作者意图 | 使用 $art-tech-critique，核对 Burtynsky《Oil》的作者声明，把明确意图与本文解读分开。 | 可定位的声明、适用范围、解读与缺口 |
+| 完整图文稿 | 使用 $art-tech-critique，研究我指定的作品，交付约800字的小红书案例、真实配图、图注和研究依据。 | 可复制的标题、全文与标签，真实图片和单独证据记录 |
+| 自然语气修改 | 使用 $art-tech-critique，修改这篇稿件的生硬表达，保留事实、艺术分析和作者意图，不虚构亲身经历。 | 全文或指定段落修订，说明重要含义变化 |
+| 生活哲思 | 使用 $art-tech-critique，只改互动段落，从作品细节联系具体生活情景，给读者留判断空间，避免说教。 | 与作品相关的生活联系与讨论句，不强行扩写全文 |
+| 原作配图 | 使用 $art-tech-critique，只为这个案例选择真实原图，逐张核对，给出顺序、图注、来源与论证用途。 | 已取得原图及清单，无法取得的明确列为缺口 |
+| 历史查重 | 使用 $art-tech-critique，比较这篇和我提供的旧稿，检查作品版本、问题、结论、形式策略和讨论问题，先给判断。 | 相同点、差异、新增价值和待补历史；不承诺全网零重复 |
+| 事实核查 | 使用 $art-tech-critique，核对稿件的事实、作者意图与解读，找出证据不足或把作品当实证的地方。 | 主张与证据表、缺口、改写建议 |
+| 分享文档 | 使用 $art-tech-critique，把这份认可稿和原图做成可转发文档，保留图注与资料来源，检查完整性和页面。 | 可用环境支持的 HTML/PDF/Word，或工具不足的明确说明 |
+| 记录交付 | 使用 $art-tech-critique，将本次研究、用户认可和交付更新到这份历史文件，保留其他栏目；发布状态按证据填写。 | 经过验证的更新与备份，没有发帖证据保持 unknown |
+
+只要一项功能，就写“只……”；已有资料能回答时直接用，不为套流程重复检索。指定历史文件可补上“历史登记在……”。
+
+## 包含什么
+
+- `SKILL.md`：入口、范围和核心判断。
+- `references/`：研究、写作、查重、验收、案例复盘，以及两篇用户认可的全文和证据。
+- `assets/registry.template.json`：新用户空表。
+- `assets/approved-cases.seed.json`：这两篇的作品、逐篇问题、主张和图片来源快照。仅在用户明确导入时使用，不替代已有历史。
+- `scripts/registry.py`：离线登记、版本/论点/来源/图片重复预警，Python 3.10+标准库。
+- `agents/openai.yaml`：Codex 显示与调用元信息，其他客户端可以忽略。
+
+没有打包第三方艺术图片或完整第三方提示词。两篇带原图的分享文档另行交付；技能内保留来源 URL、图注、用途和真实文件指纹。分享或修改本 Skill 不改变原作图片、来源文字或字体的权利状态。
+
+## 查重能做到什么
+
+脚本比较已记录作品的已知别名、作者、年份，检查来源 URL、已确认的同源材料和图片 SHA256，并比较作品主字段与 `analyses` 中每篇的问题、结论。关键词 Jaccard 达到0.45会预警；它不是抄袭概率，低分也不证明新颖。没有已登记历史时，更不能声称全部查重成功。
+
+艺术形式、问题的推理关系、换词后的同义论点及生活例子仍须人工/模型复核。不能因换作者、换作品、换标签就把同一结论当新观点。实际登记操作见 [历史与查重](references/history-and-dedup.md)。
+
+## 运行辅助工具
+
+在 Skill 文件夹内运行；文件路径换成自己的项目路径：
+
+```text
+python scripts/registry.py init --registry ../project/registry.json --seed assets/registry.template.json
+python scripts/registry.py check --registry ../project/registry.json
+python scripts/registry.py assess --registry ../project/registry.json --candidate ../project/candidate.json
+python scripts/registry.py merge --registry ../project/registry.json --entry ../project/increment.json --operation update
+```
+
+`init`不覆盖；`check`和`assess`只读；合并验证、备份、使用写锁并原子替换。遇到锁或文件变化重新读取，不绕过。候选需要完整作品对象或 `{case: 完整对象, sources: [], claims: [], images: []}`；格式与示例见参考文件。
+
+## 已有依据与验证边界
+
+两篇案例已经完成原图查看、身份/声明核对、全文与图片交付，并经用户认可语言自然及生活联系。它们是开发样例，不是保留测试。包的实际格式、脚本与迁移检查记录见 `VALIDATION.md`。跨 AI 的独立行为、陌生读者理解与传播效果仍需实际试用，不因包能导入而宣称这些已验证。
+
+研究方法的借鉴与差异见 [方法出处](references/method-provenance.md)。不声称这是市场唯一的艺术批判 Skill，也不把人工写作习惯当作抄袭检测证明。

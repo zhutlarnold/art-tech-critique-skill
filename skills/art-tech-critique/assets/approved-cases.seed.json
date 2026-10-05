@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "scope": "两篇已获用户认可的开发案例快照；不是全社团历史，不表示平台发布。",
+  "cases": [
+    {
+      "id": "burtynsky-oil-fields-19ab-2003",
+      "title": "Oil Fields #19ab",
+      "kind": "artwork",
+      "artist": "Edward Burtynsky",
+      "year": 2003,
+      "aliases": [
+        "油田 #19ab"
+      ],
+      "stage": "delivered",
+      "publication": {
+        "status": "unknown",
+        "evidence": []
+      },
+      "adoption": {
+        "status": "accepted",
+        "evidence": [
+          "用户认可文稿自然与生活联系，并要求由两篇提炼完整Skill。"
+        ]
+      },
+      "question": "工业景观的形式美怎样让观众注意开采规模，又可能怎样削弱批判？",
+      "takeaway": "重复与大尺度景观吸引观看，作者声明将这种吸引联系到消费依赖与环境忧虑；漂亮的画面也留下审美化可能遮蔽代价的张力。",
+      "analyses": {
+        "oil-critique-v4": {
+          "skill_name": "art-tech-critique",
+          "angle": "艺术批判工业与科技",
+          "question": "工业景观的形式美怎样让观众注意开采规模，又可能怎样削弱批判？",
+          "takeaway": "重复与大尺度景观吸引观看，作者声明将这种吸引联系到消费依赖与环境忧虑；漂亮的画面也留下审美化可能遮蔽代价的张力。",
+          "stage": "delivered",
+          "artistic_strategy": "重复的抽油设备、延伸到远处的道路、全景组织和暖色光线，形成吸引与不安之间的观看张力",
+          "daily_anchor": "购买物品时对价格、用途的关注，与原料来源和生产过程的距离；不认定所举商品源于图中油田",
+          "discussion_question": "再看这片金色的土地，你仍然可以觉得它美。但知道这些漂亮的纹理来自石油开采之后，你的欣赏会发生变化吗？我们能否一边赞叹照片里的秩序，一边质疑形成这种秩序的方式？",
+          "claim_ids": [
+            "oil-claim-1",
+            "oil-claim-2",
+            "oil-claim-3",
+            "oil-claim-4",
+            "oil-visual-fact"
+          ],
+          "evidence": [
+            "本轮v4全文与原图交付",
+            "用户认可后开始Skill提炼"
+          ],
+          "publication": "unknown"
+        }
+      },
+      "limits": [
+        "没有给出这两件作品原版印相的尺寸或亲身展览体验，网页照片不代表完整现场经验。",
+        "作者声明属于系列或总体创作背景，不等于每一处形式选择的明确意图。",
+        "未从照片推断污染浓度、健康风险或作品实际社会效果。",
+        "历史表中的 Manufactured Landscapes 尚未细分影片、图书和摄影作品；本稿分析两件明确照片，不替它补写作者或年份。",
+        "历史多数批判案例的 question 与 takeaway 为空，跨历史论点去重尚不完整。"
+      ],
+      "related_objects": [
+        "Oil Fields #27, 2004"
+      ]
+    },
+    {
+      "id": "trevor-paglen-imagenet-roulette",
+      "title": "ImageNet Roulette",
+      "kind": "artwork",
+      "artist": "Trevor Paglen",
+      "year": 2019,
+      "aliases": [
+        "ImageNet轮盘",
+        "ImageNet 轮盘"
+      ],
+      "stage": "delivered",
+      "publication": {
+        "status": "unknown",
+        "evidence": []
+      },
+      "adoption": {
+        "status": "accepted",
+        "evidence": [
+          "用户认可文稿自然与生活联系，并要求由两篇提炼完整Skill。"
+        ]
+      },
+      "question": "分类界面的图像语言怎样使人的判断显得像技术测量，并把观看者变成被分类的对象？",
+      "takeaway": "作品将后台分类呈现到人的肖像上，让类别如何定义人变得可见；它批判特定训练材料与分类关系，不能据此概括所有 AI。",
+      "analyses": {
+        "roulette-critique-v4": {
+          "skill_name": "art-tech-critique",
+          "angle": "艺术批判工业与科技",
+          "question": "分类界面的图像语言怎样使人的判断显得像技术测量，并把观看者变成被分类的对象？",
+          "takeaway": "作品将后台分类呈现到人的肖像上，让类别如何定义人变得可见；它批判特定训练材料与分类关系，不能据此概括所有 AI。",
+          "stage": "delivered",
+          "artistic_strategy": "自拍与机器标签并置、绿色人脸框、黑底绿字、将观众从观看者转为被观看与命名者",
+          "daily_anchor": "对一次考试结果的描述，与对整个人的评价；仅作生活类比，不等同于模型的分类机制",
+          "discussion_question": "最后不妨换个设想：如果系统给你一个讨喜的标签，比如“成功者”，你还会要求它解释依据吗？我们可能很容易拒绝冒犯自己的判断，却欣然接受赞美。但一个标签让人高兴，是否就足以让它获得定义人的资格？",
+          "claim_ids": [
+            "roulette-claim-1",
+            "roulette-claim-2",
+            "roulette-claim-3",
+            "roulette-claim-4",
+            "roulette-visual-fact"
+          ],
+          "evidence": [
+            "本轮v4全文与原图交付",
+            "用户认可后开始Skill提炼"
+          ],
+          "publication": "unknown"
+        }
+      },
+      "limits": [
+        "2019 年同期论文证实工具当时存在，2020 年网页发布日期不作为作品创作年。",
+        "工作室 2020 年页面说明线上版本已移除；本次没有测试现有体验入口，不提供操作或实验。",
+        "P1 和 P2 属同一项目的作者材料，不能算作两项独立实证研究。",
+        "未推断所有模型或当前全部 ImageNet 版本保留相同类别。",
+        "没有观众访谈或社会效果数据，观看关系属于有依据的解读。",
+        "保留已有历史 ID，不因补齐作者信息或新问题而重新创建另一件同名作品。"
+      ],
+      "related_objects": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "oil-b1",
+      "url": "https://www.edwardburtynsky.com/projects/photographs/oil",
+      "source_type": "primary_author_or_institution",
+      "evidence_family_id": "burtynsky-studio",
+      "locator": "Artist’s Statement 段落与图片 alt 标注 Oil Fields #19ab 和 Oil Fields #27",
+      "access": "web 与本地网页均读取",
+      "research_date": "2026-10-05"
+    },
+    {
+      "id": "oil-b2",
+      "url": "https://www.edwardburtynsky.com/about/statement",
+      "source_type": "primary_author_or_institution",
+      "evidence_family_id": "burtynsky-studio",
+      "locator": "Exploring the Residual Landscape",
+      "access": "web 与本地网页均读取",
+      "research_date": "2026-10-05"
+    },
+    {
+      "id": "roulette-p1",
+      "url": "https://paglen.studio/2020/04/29/imagenet-roulette/",
+      "source_type": "primary_author_or_institution",
+      "evidence_family_id": "crawford-paglen-project",
+      "locator": "ImageNet Roulette 正文和配图",
+      "access": "web 与本地网页均读取",
+      "research_date": "2026-10-05"
+    },
+    {
+      "id": "roulette-p2",
+      "url": "https://excavating.ai/",
+      "source_type": "primary_author_or_institution",
+      "evidence_family_id": "crawford-paglen-project",
+      "locator": "ImageNet Roulette An Experiment in Classification 段落；Credits and Acknowledgements",
+      "access": "web 与本地网页均读取",
+      "research_date": "2026-10-05"
+    },
+    {
+      "id": "roulette-p3",
+      "url": "https://www.fondazioneprada.org/project/training-humans/?lang=en",
+      "source_type": "primary_author_or_institution",
+      "evidence_family_id": "prada-training-humans",
+      "locator": "展览日期、conceived by 段落和作者发言",
+      "access": "web 工具读取成功；本地直取返回 403，两者分别记录",
+      "research_date": "2026-10-05"
+    }
+  ],
+  "searches": [],
+  "claims": [
+    {
+      "id": "oil-claim-1",
+      "case_id": "burtynsky-oil-fields-19ab-2003",
+      "type": "fact",
+      "text": "两幅照片分别是 2003 年 Belridge 的 #19ab 和 2004 年 Bakersfield 的 #27",
+      "sources": [
+        "oil-b1"
+      ],
+      "premises": [],
+      "publishable": true,
+      "locator": "B1 图像 alt 与原图"
+    },
+    {
+      "id": "oil-claim-2",
+      "case_id": "burtynsky-oil-fields-19ab-2003",
+      "type": "artist_intent",
+      "text": "作者将石油提供的自由与环境忧虑并置",
+      "sources": [
+        "oil-b1"
+      ],
+      "premises": [],
+      "publishable": true,
+      "locator": "B1 系列声明"
+    },
+    {
+      "id": "oil-claim-3",
+      "case_id": "burtynsky-oil-fields-19ab-2003",
+      "type": "interpretation",
+      "text": "重复和全景组织让油田显现为覆盖土地的生产网络",
+      "sources": [],
+      "premises": [
+        "oil-visual-fact"
+      ],
+      "publishable": true,
+      "locator": "oil-19ab 已查看原图"
+    },
+    {
+      "id": "oil-claim-4",
+      "case_id": "burtynsky-oil-fields-19ab-2003",
+      "type": "interpretation",
+      "text": "美感可能吸引注意，也可能使代价退到背景",
+      "sources": [],
+      "premises": [
+        "oil-visual-fact"
+      ],
+      "publishable": true,
+      "locator": "两张已查看原图；B1 和 B2 的张力背景"
+    },
+    {
+      "id": "oil-visual-fact",
+      "case_id": "burtynsky-oil-fields-19ab-2003",
+      "type": "fact",
+      "text": "狭窄天空、密集且重复的抽油设备、前后景尺度变化、两部分图像之间的黑色接缝；起伏地表上交织的曲线道路与设备、大片地面、高处观看角度、暖色光线",
+      "sources": [
+        "oil-b1"
+      ],
+      "premises": [],
+      "publishable": true,
+      "locator": "已逐张查看的原图及来源页面图注；见本篇证据文件"
+    },
+    {
+      "id": "roulette-claim-1",
+      "case_id": "trevor-paglen-imagenet-roulette",
+      "type": "fact",
+      "text": "模型使用历史 person 类别，返回照片边框与标签",
+      "sources": [
+        "roulette-p2"
+      ],
+      "premises": [],
+      "publishable": true,
+      "locator": "P2 工具方法段"
+    },
+    {
+      "id": "roulette-claim-2",
+      "case_id": "trevor-paglen-imagenet-roulette",
+      "type": "fact",
+      "text": "首图的标签是 newsreader 和 microeconomist，次图是历史分类页面",
+      "sources": [
+        "roulette-p1"
+      ],
+      "premises": [],
+      "publishable": true,
+      "locator": "已逐张查看下载原图；P1 图注"
+    },
+    {
+      "id": "roulette-claim-3",
+      "case_id": "trevor-paglen-imagenet-roulette",
+      "type": "artist_intent",
+      "text": "作者意在让有问题的训练材料与分类关系显现",
+      "sources": [
+        "roulette-p1",
+        "roulette-p2"
+      ],
+      "premises": [],
+      "publishable": true,
+      "locator": "P1 作者说明；P2 联合论文"
+    },
+    {
+      "id": "roulette-claim-4",
+      "case_id": "trevor-paglen-imagenet-roulette",
+      "type": "interpretation",
+      "text": "精准人脸框与简短标签给判断一种测量外观，参与机制把观看者变成对象",
+      "sources": [],
+      "premises": [
+        "roulette-visual-fact"
+      ],
+      "publishable": true,
+      "locator": "roulette-authors 原图；P2 流程"
+    },
+    {
+      "id": "roulette-visual-fact",
+      "case_id": "trevor-paglen-imagenet-roulette",
+      "type": "fact",
+      "text": "人脸边框、黑底绿字标签、人物肖像与背后的图像墙；标签是 newsreader 与 microeconomist；页面标题中的评价性类别、左侧类别树和右侧被归类的照片网格",
+      "sources": [
+        "roulette-p1"
+      ],
+      "premises": [],
+      "publishable": true,
+      "locator": "已逐张查看的原图及来源页面图注；见本篇证据文件"
+    }
+  ],
+  "images": [
+    {
+      "case_id": "burtynsky-oil-fields-19ab-2003",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1499022706769-XD5TJG96ZAC9X7RT6FXN/OLF_19AB_03_big.jpg",
+      "sha256": "a64442888378c2719eec91217cad8b7cbbfbf3cbec89200146a23ac0a8343c2a",
+      "caption": "Edward Burtynsky，Oil Fields #19ab，Belridge，California，USA，2003。© Edward Burtynsky。来源：艺术家官网。",
+      "role": "首图与主要分析对象。保留整个双联画面和中间接缝，呈现抽油设备的排列与延伸；不要以局部裁切替代整体。",
+      "source_page": "https://www.edwardburtynsky.com/projects/photographs/oil"
+    },
+    {
+      "case_id": "burtynsky-oil-fields-19ab-2003",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5915c70e59cc6830f44a9d74/1499022710657-OQ055ORF7F66UJLSOUWP/OLF_27_04_big+%281%29.jpg",
+      "sha256": "78a625813c14a25bb226144e0a8f40c789087b594def51d58fb18836217c12cd",
+      "caption": "Edward Burtynsky，Oil Fields #27，Bakersfield，California，USA，2004。© Edward Burtynsky。来源：艺术家官网。",
+      "role": "第二张对照图。说明道路和起伏地形如何组织开采空间；这是另一件作品，不能写成第一张的局部。",
+      "source_page": "https://www.edwardburtynsky.com/projects/photographs/oil"
+    },
+    {
+      "case_id": "trevor-paglen-imagenet-roulette",
+      "source_url": "https://paglen.studio/wp-content/uploads/2020/06/Crawford_Paglen.jpg",
+      "sha256": "40659d1a73a8be2591092f9ff6e8a769c0af29c49b60728cf6f97c8b5256280b",
+      "caption": "Kate Crawford 与 Trevor Paglen 使用 ImageNet Roulette 的展示图。图中的英文为系统分类标签。来源：Paglen Studio；页面未列摄影署名。",
+      "role": "首图与形式分析证据。完整保留绿色人脸框和标签，让读者看到本文分析的界面语言。",
+      "source_page": "https://paglen.studio/2020/04/29/imagenet-roulette/"
+    },
+    {
+      "case_id": "trevor-paglen-imagenet-roulette",
+      "source_url": "https://paglen.studio/wp-content/uploads/2020/06/failure.jpg",
+      "sha256": "3d0da901507bff281ab84deee296f8128ad4190f9c23b4198c0e99e51a339fca",
+      "caption": "Paglen Studio 展示的 ImageNet 历史 person 类别页面，类别名包含 failure 和 loser。标签属于被批判的分类材料，不代表本文对照片人物的判断。",
+      "role": "第二张机制背景图。呈现类别、图像和分类层级；明确这是历史数据集页面，不是工具的即时输出。",
+      "source_page": "https://paglen.studio/2020/04/29/imagenet-roulette/"
+    }
+  ]
+}

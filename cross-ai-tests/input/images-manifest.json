@@ -1,0 +1,50 @@
+[
+  {
+    "file": "images/trap-overview.jpg",
+    "image_url": "https://jamesbridle.com/media/pages/works/autonomous-trap-001/329e6817a6-1680515123/1-autonomous-trap-001-003.jpg",
+    "page_url": "https://jamesbridle.com/works/autonomous-trap-001",
+    "credit": "James Bridle, Autonomous Trap 001, 2017. Image from the artist’s official project page. © James Bridle.",
+    "sha256": "592754fdaad493fe9c747f33c3fbadc48faf96dab285f65517dd1b000969c4ed",
+    "accessed": "2026-10-05",
+    "edited": false,
+    "rights": "Third-party artwork / photography. No new permission or license asserted.",
+    "visually_verified_description": "Vehicle inside the salt circle; mountain and roads visible.",
+    "visual_review": "All four images viewed before packet publication on 2026-10-05."
+  },
+  {
+    "file": "images/trap-second-view.jpg",
+    "image_url": "https://jamesbridle.com/media/pages/works/autonomous-trap-001/7f4c4c6acb-1680515123/autonomous-trap-001-001.jpg",
+    "page_url": "https://jamesbridle.com/works/autonomous-trap-001",
+    "credit": "James Bridle, Autonomous Trap 001, 2017. Second image from the artist’s official project page. © James Bridle.",
+    "sha256": "0caf0cea03efb5e0d729b582e28ebcacf5c0a03a5ea395f59e1f79965854f7ed",
+    "accessed": "2026-10-05",
+    "edited": false,
+    "rights": "Third-party artwork / photography. No new permission or license asserted.",
+    "visually_verified_description": "Second view of the same project site; salt circle without a vehicle.",
+    "visual_review": "All four images viewed before packet publication on 2026-10-05."
+  },
+  {
+    "file": "images/factory-installation-1.jpg",
+    "image_url": "https://cdn.sanity.io/images/ianh83xv/production/f83f1e3c0e09031ad1ae90815d6b3b86f1746105-1120x747.jpg",
+    "page_url": "https://www.moca.org/exhibitions/hito-steyerl-factory-of-the-sun",
+    "credit": "Installation view of Hito Steyerl: Factory of the Sun, February 21–September 12, 2016 at MOCA Grand Avenue. Courtesy of The Museum of Contemporary Art, Los Angeles. Photo by Justin Lubliner and Carter Seddon.",
+    "sha256": "ea7e9785e5b85c329b9667cb76d7dc261e235dbdbfe5da3641eafc01fb603300",
+    "accessed": "2026-10-05",
+    "edited": false,
+    "rights": "Third-party artwork / photography. No new permission or license asserted.",
+    "visually_verified_description": "MOCA installation with grid, projection and empty chairs.",
+    "visual_review": "All four images viewed before packet publication on 2026-10-05."
+  },
+  {
+    "file": "images/factory-installation-2.jpg",
+    "image_url": "https://cdn.sanity.io/images/ianh83xv/production/71a509efe1e5a2a269cd433bc48bfcb19d136015-1500x1001.jpg",
+    "page_url": "https://www.moca.org/exhibitions/hito-steyerl-factory-of-the-sun",
+    "credit": "Installation view of Hito Steyerl: Factory of the Sun, February 21–September 12, 2016 at MOCA Grand Avenue. Courtesy of The Museum of Contemporary Art, Los Angeles. Photo by Justin Lubliner and Carter Seddon.",
+    "sha256": "915beb37fc5ecdeae6489afea4bbb9b9e599f2136248fcba051366ccd8c206ed",
+    "accessed": "2026-10-05",
+    "edited": false,
+    "rights": "Third-party artwork / photography. No new permission or license asserted.",
+    "visually_verified_description": "MOCA installation with audience in chairs and projection.",
+    "visual_review": "All four images viewed before packet publication on 2026-10-05."
+  }
+]
