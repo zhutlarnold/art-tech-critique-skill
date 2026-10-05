@@ -6,8 +6,8 @@
 
 1. 打开 [版本下载页](https://github.com/zhutlarnold/art-tech-critique-skill/releases/tag/v1.0.0)。
 2. 原生支持Skills的客户端下载 **art-tech-critique_1.0.0_skill.zip**，解压并导入完整文件夹；支持Agent Plugins的客户端可选plugin.zip。仓库中的Skill位置是 [skills/art-tech-critique](skills/art-tech-critique)。
-3. 普通AI聊天下载 **art-tech-critique_通用AI提示词.md**，作为附件上传，再说明“按这个文件的规则执行”。不能保证任意平台原生支持Skill。
-4. 想立即测试，下载 **art-tech-critique_跨AI测试包_20261005.zip**，按其中README上传材料。测试包有两件新作品、四张原图与可复制提问。
+3. 普通AI聊天下载 **art-tech-critique_universal-prompt.md**，作为附件上传，再说明“按这个文件的规则执行”。不能保证任意平台原生支持Skill。
+4. 想立即测试，下载 **art-tech-critique_cross-ai-tests_20261005.zip**，按其中README上传材料。测试包有两件新作品、四张原图与可复制提问。
 
 Codex中也可以请求安装：
 
