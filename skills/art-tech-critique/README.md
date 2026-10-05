@@ -87,3 +87,5 @@ python scripts/registry.py merge --registry ../project/registry.json --entry ../
 两篇案例已经完成原图查看、身份/声明核对、全文与图片交付，并经用户认可语言自然及生活联系。它们是开发样例，不是保留测试。包的实际格式、脚本与迁移检查记录见 `VALIDATION.md`。跨 AI 的独立行为、陌生读者理解与传播效果仍需实际试用，不因包能导入而宣称这些已验证。
 
 研究方法的借鉴与差异见 [方法出处](references/method-provenance.md)。不声称这是市场唯一的艺术批判 Skill，也不把人工写作习惯当作抄袭检测证明。
+
+[中英文项目说明 / Bilingual project statement](PROJECT_OVERVIEW_ZH_EN.md)：目标、功能、项目发起者贡献、AI参与与验证边界。 Purpose, capabilities, contribution, AI assistance and validation limits.
