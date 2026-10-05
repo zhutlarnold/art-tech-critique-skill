@@ -1,4 +1,4 @@
 interface:
   display_name: "艺术批判工业与科技"
-  short_description: "研究艺术对工业与科技的批判，交付自然易懂、有图像依据并联系生活的案例文章"
-  default_prompt: "使用 $art-tech-critique，研究一件艺术批判工业或科技的作品，交付自然易懂、联系生活的案例稿、真实配图和研究依据。"
+  short_description: "先看原图筛选有美感与震撼感的作品，再研究工业科技批判并写出联系生活的案例"
+  default_prompt: "使用 $art-tech-critique，先看原图筛选有美感和震撼感的艺术批判工业或科技作品，交付自然易懂、联系生活的案例稿、真实配图和研究依据。"

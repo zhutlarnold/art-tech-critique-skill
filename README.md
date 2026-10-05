@@ -1,13 +1,21 @@
 # art-tech-critique · 艺术批判工业与科技
 
-从两篇获用户认可的案例提炼的独立Skill：艺术形式、具体技术、可核对的意图、真实原图，以及读者能理解的生活哲思。版本1.0.0。
+从两篇获用户认可的案例提炼的独立Skill：艺术形式、具体技术、可核对的意图、真实原图，以及读者能理解的生活哲思。版本1.1.0。
+
+## 本次修正：先看图选题
+
+默认推荐先实际看原图，筛选有美感、震撼感和清晰首图的作品，再写批判分析。概念有趣不能替代画面吸引力。盐圈案例在当前两张图条件下不再默认推荐，保留为已知失败回归例。抽象艺术仍可入选；用户明确指定作品则说明局限后继续分析。
+
+新版本有12项功能，[视觉选题方法](skills/art-tech-critique/references/visual-selection.md)与[更新说明](docs/视觉优先选题_更新说明.md)可单独查看。
+
+> 使用 $art-tech-critique，只做选题，给我3个有美感和震撼感的艺术批判工业与科技案例。先给真实原图，再判断首图与批判关系，不合格不要凑数，先不写稿。
 
 ## 从哪里下载和开始
 
-1. 打开 [版本下载页](https://github.com/zhutlarnold/art-tech-critique-skill/releases/tag/v1.0.0)。
-2. 原生支持Skills的客户端下载 **art-tech-critique_1.0.0_skill.zip**，解压并导入完整文件夹；支持Agent Plugins的客户端可选plugin.zip。仓库中的Skill位置是 [skills/art-tech-critique](skills/art-tech-critique)。
+1. 打开 [版本下载页](https://github.com/zhutlarnold/art-tech-critique-skill/releases/tag/v1.1.0)。
+2. 原生支持Skills的客户端下载 **art-tech-critique_1.1.0_skill.zip**，解压并导入完整文件夹；支持Agent Plugins的客户端可选plugin.zip。仓库中的Skill位置是 [skills/art-tech-critique](skills/art-tech-critique)。
 3. 普通AI聊天下载 **art-tech-critique_universal-prompt.md**，作为附件上传，再说明“按这个文件的规则执行”。不能保证任意平台原生支持Skill。
-4. 想立即测试，下载 **art-tech-critique_cross-ai-tests_20261005.zip**，按其中README上传材料。测试包有两件新作品、四张原图与可复制提问。
+4. 想立即测试，下载 **art-tech-critique_cross-ai-tests_1.1.0.zip**，按其中README上传材料。测试包有两件新作品、四张原图与可复制提问。
 
 Codex中也可以请求安装：
 
@@ -24,13 +32,22 @@ Codex中也可以请求安装：
 - [具体跨AI测试方法](cross-ai-tests/README.md)、[可复制提问](cross-ai-tests/prompts.md)。
 - [已做检查及验证边界](skills/art-tech-critique/VALIDATION.md)。
 
-两篇开发样例为Burtynsky的油田照片与ImageNet Roulette；新测试材料为Autonomous Trap 001和Factory of the Sun。新材料已核对，跨AI输出与读者评测仍待实际运行。公开仓库只提供两篇案例的历史快照，不包含整个社团项目历史。
+两篇开发样例为Burtynsky的油田照片与ImageNet Roulette；新测试材料为Autonomous Trap 001和Factory of the Sun。原图已核对，用户已回传盐圈试用稿及视觉反馈；v1.1.0重新试用和读者评测仍待实际运行。公开仓库只提供两篇案例的历史快照，不包含整个社团项目历史。
+
 
 ---
 
 # 艺术批判工业与科技 · art-tech-critique
 
-版本 1.0.0。这个独立 Skill 从用户认可的《Oil》与《ImageNet Roulette》两篇图文稿提炼，研究艺术作品怎样表达对工业与科技的批判。保留形式分析、具体技术、作者意图、真实图像和生活中的讨论，适合小红书案例，也可按需求改为其他平台内容。
+版本 1.1.0。这个独立 Skill 从用户认可的《Oil》与《ImageNet Roulette》两篇图文稿提炼，研究艺术作品怎样表达对工业与科技的批判。保留形式分析、具体技术、作者意图、真实图像和生活中的讨论，适合小红书案例，也可按需求改为其他平台内容。
+
+## 1.1.0新增：选题先看图
+
+自动推荐优先要求作品原图有美感、震撼感，手机首图里主体也看得清，再研究批判内容。不能只因概念有趣或作者有名就选它。依据见 [视觉选题筛选](skills/art-tech-critique/references/visual-selection.md)；12个功能保留单项调用。
+
+> 使用 $art-tech-critique，只做选题筛选，给我3个有美感和震撼感的艺术批判工业与科技案例。先给真实原图，再判断美感、视觉冲击、首图辨识度和批判关系。不合格的不要凑数，先不写稿。
+
+《Autonomous Trap 001》保留为视觉不适配的回归案例；在当前两张原图条件下不再默认推荐发布。抽象作品仍可以入选。用户明确指定作品要分析时，说明局限后按请求继续。
 
 ## 怎么开始
 
@@ -42,7 +59,7 @@ Codex 支持安装的环境中，用 `$art-tech-critique` 明确调用；不能�
 
 完整调用示例：
 
-> 使用 $art-tech-critique，研究一个艺术批判工业或科技的案例。先读我的历史记录，说明新增问题，再分析作品形式、具体技术与作者意图。用自然易懂的中文写成约800字的小红书稿，联系一个具体生活情景，留下有讨论空间的问题，并交付真实图片、图注和研究依据。
+> 使用 $art-tech-critique，研究一个艺术批判工业或科技的案例。先读我的历史记录，实际看原图筛选有美感和震撼感的作品，说明新增问题，再分析作品形式、具体技术与作者意图。用自然易懂的中文写成约800字的小红书稿，联系一个具体生活情景，留下有讨论空间的问题，并交付真实图片、图注和研究依据。
 
 ## 提示词与功能对应
 
@@ -52,7 +69,8 @@ Codex 支持安装的环境中，用 `$art-tech-critique` 明确调用；不能�
 
 | 功能 | 提示词 | 结果 |
 | --- | --- | --- |
-| 候选选题 | 使用 $art-tech-critique，读取历史，给我3个艺术批判工业与科技的候选，说明旧稿差异，先不写正文。 | 具体作品、核心问题、可能的艺术表达、待查证据与新增价值 |
+| 候选选题 | 使用 $art-tech-critique，读取历史，先看原图，给我3个有美感和震撼感的艺术批判工业与科技候选，说明旧稿差异，先不写正文。 | 原图预览/直达链接、视觉筛选、核心问题、证据缺口与新增价值；不足时不凑数 |
+| 视觉适配检查 | 使用 $art-tech-critique，只评估这些原图是否适合首图，分开判断美感、震撼感、缩小辨识度与批判关系，先不写稿。 | 具体画面依据、推荐/待补图/不推荐，以及可复查的取舍理由 |
 | 艺术与技术分析 | 使用 $art-tech-critique，只分析《ImageNet Roulette》的界面、肖像与分类机制怎样构成批判。 | 图像细节、技术过程、解释前提及另一种合理解读 |
 | 作者意图 | 使用 $art-tech-critique，核对 Burtynsky《Oil》的作者声明，把明确意图与本文解读分开。 | 可定位的声明、适用范围、解读与缺口 |
 | 完整图文稿 | 使用 $art-tech-critique，研究我指定的作品，交付约800字的小红书案例、真实配图、图注和研究依据。 | 可复制的标题、全文与标签，真实图片和单独证据记录 |
